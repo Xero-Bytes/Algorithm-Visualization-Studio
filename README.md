@@ -2,7 +2,7 @@
 
 ### Learn Algorithms Through Interactive Python Visualizations
 
-A Python-based educational project that demonstrates **12 Algorithms and Data Structures** through interactive visualizations and animations.
+A Python-based educational project featuring **12 Algorithms and Data Structures** through interactive demonstrations and animations.
 
 Explore core computer science concepts, understand how algorithms work, and learn through visual demonstrations.
 
@@ -12,8 +12,8 @@ Explore core computer science concepts, understand how algorithms work, and lear
 - Interactive Python-based execution
 - Visual learning through animations
 - Organized concept and creative animation modules
-- MP4 video demonstrations
-- Thumbnail collection for all demonstrations
+- 12 MP4 video demonstrations
+- 12 thumbnail images
 
 ## Project Demonstrations
 
@@ -45,6 +45,7 @@ Explore core computer science concepts, understand how algorithms work, and lear
 Algorithm-Visualization-Studio/
 │
 ├── 01_concepts/
+│   ├── __init__.py
 │   ├── bubble_sort.py
 │   ├── binary_search.py
 │   ├── stack.py
@@ -54,6 +55,7 @@ Algorithm-Visualization-Studio/
 │   └── hash_table.py
 │
 ├── 02_fun_animations/
+│   ├── __init__.py
 │   ├── selection_sort.py
 │   ├── bfs.py
 │   ├── climbing_stairs.py
@@ -68,46 +70,48 @@ Algorithm-Visualization-Studio/
 │
 ├── main.py
 ├── requirements.txt
+├── README.md
 └── .gitignore
 ```
 
 ## Installation
 
-**1. Clone the repository**
+**Requirements:** Python 3.9 or newer.
+
+No third-party packages are required. This project uses Python's built-in Standard Library.
+
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/USERNAME/Algorithm-Visualization-Studio.git
+git clone https://github.com/Xero-Bytes/Algorithm-Visualization-Studio.git
 ```
 
-**2. Open the project folder**
+### 2. Navigate to the project directory
 
 ```bash
 cd Algorithm-Visualization-Studio
 ```
 
-**3. Install dependencies**
-
-```bash
-python -m pip install -r requirements.txt
-```
-
-**4. Run the project**
+### 3. Run the project
 
 ```bash
 python main.py
 ```
+
+Start exploring all 12 algorithm demonstrations!
 
 ## Technologies Used
 
 - Python
 - Algorithm Design
 - Data Structures
-- Python Visualization
-- Animation
+- Python Standard Library
+- Interactive Programming
+- Algorithm Visualization
 
 ## Learning Goals
 
-This project aims to make algorithms and data structures easier to understand through practical demonstrations and visual learning.
+This project aims to make algorithms and data structures easier to understand through practical demonstrations, interactive execution, and visual learning.
 
 ## Author
 
@@ -116,6 +120,8 @@ This project aims to make algorithms and data structures easier to understand th
 BS Artificial Intelligence Student
 
 GitHub: [Xero-Bytes](https://github.com/Xero-Bytes)
+
+**Repository:** [Algorithm Visualization Studio](https://github.com/Xero-Bytes/Algorithm-Visualization-Studio)
 
 ---
 
